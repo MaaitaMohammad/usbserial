@@ -18,7 +18,7 @@ import java.util.List;
 import java.util.ArrayList;
 import java.util.Map;
 
-import io.flutter.plugin.common.FlutterPlugin;
+import io.flutter.embedding.engine.plugins.FlutterPlugin;
 import io.flutter.plugin.common.MethodCall;
 import io.flutter.plugin.common.MethodChannel;
 import io.flutter.plugin.common.MethodChannel.MethodCallHandler;
