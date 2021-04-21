@@ -18,17 +18,17 @@ import java.util.List;
 import java.util.ArrayList;
 import java.util.Map;
 
+import io.flutter.plugin.common.FlutterPlugin;
 import io.flutter.plugin.common.MethodCall;
 import io.flutter.plugin.common.MethodChannel;
 import io.flutter.plugin.common.MethodChannel.MethodCallHandler;
 import io.flutter.plugin.common.MethodChannel.Result;
 import io.flutter.plugin.common.PluginRegistry.Registrar;
-import io.flutter.plugin.common.EventChannel;
 
 
 
 /** UsbSerialPlugin */
-public class UsbSerialPlugin implements MethodCallHandler, EventChannel.StreamHandler {
+public class UsbSerialPlugin implements FlutterPlugin, MethodCallHandler {
 
     private final String TAG = UsbSerialPortAdapter.class.getSimpleName();
 
